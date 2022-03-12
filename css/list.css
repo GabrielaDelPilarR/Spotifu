@@ -1,0 +1,23 @@
+.list{
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+}
+
+.list-title{
+  font: var(--baseFontfamily);
+  margin-block-end: .5rem;
+  margin-block-start: 0;
+}
+.list-content{
+  padding:0;
+  margin:0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.list-item a{
+  font: var(--basefont-bold);
+  transition: color .2s;
+}
