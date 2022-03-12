@@ -1,0 +1,14 @@
+
+::-webkit-scrollbar {
+  /*background-color: red;*/
+  inline-size: .5rem;
+  block-size: .5rem;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray60);
+}
+::-webkit-scrollbar-button {
+  background-color: var(--gray50)
+}
