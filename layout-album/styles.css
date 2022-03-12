@@ -1,0 +1,55 @@
+@import "../css/icons.css";
+@import "../css/fonts.css";
+@import "../css/body.css";
+@import "../css/link.css";
+@import "../css/button-icon.css";
+@import "../css/logo.css";
+@import "../css/list.css";
+@import "../css/menu.css";
+@import "../css/layout-main.css";
+@import "../css/sidebar.css";
+@import "../css/ellipsis.css";
+@import "../css/player.css";
+@import "../css/page.css";
+@import "../css/scrollbar.css";
+@import "./layout-album.css";
+@import "./button-play.css";
+@import "./listSong.css";
+@import "./titlesSong.css";
+
+:root {
+  font-size: 14px;
+  --primary: #00b050;
+  --white: #ffffff;
+  --gray10: #b3b3b3;
+  --gray20: #737373;
+  --gray30: #282828;
+  --gray40: #181818;
+  --gray50: #121212;
+  --gray60: #000000;
+  --basefont: "Avenir";
+  --headline1: 900 2rem / normal Avenir;
+  --headline2: bold 1.5rem/1.75rem Avenir;
+  --button: bold 0.875rem/1rem Avenir;
+  --subtitle2: 0.75rem / normal Avenir;
+  --smallfont: 0.65625rem / normal Avenir;
+  --basefont-normal: 0.875rem/1.375rem Avenir;
+  --basefontBold: 900 0.875rem/1.375rem Avenir;
+  --minBlockSize: 37.5rem;
+  --sidebarInlineSize: 15rem;
+  --minBlockSize: 37.5rem;
+  --minInlineSize: 48rem;
+  --bottomSize: 5.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1367px) {
+  :root {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,95 @@
+.titlesSong {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: var(--white);
+  font: var(--baseFont);
+  justify-content: space-around;
+  height: 3rem;
+}
+
+.titlesong {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  color: var(--white);
+  font: var(--baseFont);
+  justify-content: space-between;
+  height: 3rem;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.1rem;
+  width: 90%;
+}
+
+.space-title {
+  display: inline-block;
+  max-inline-size: 80px;
+}
+
+.iconSongs {
+  display: flex;
+  align-items: center;
+}
+
+.icon-play2 {
+  border: 1px solid white;
+  align-items: center;
+  padding: 8px;
+  padding-left: 9.5px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.icon-heart {
+  padding: 8px;
+  margin: 10px;
+}
+
+.titles-song {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.iconSong-date {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.title-song {
+  width: 80%;
+  display: inline;
+  max-inline-size: 18.95rem;
+}
+
+.artist-song {
+  width: 90%;
+  max-inline-size: 15.87rem;
+}
+.album-song {
+  width: 90%;
+  max-inline-size: 15.87rem;
+}
+
+.date-song {
+  width: 90%;
+  max-inline-size: 15.87rem;
+}
+
+.minute-song {
+  width: 90%;
+  max-inline-size: 15.87rem;
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}

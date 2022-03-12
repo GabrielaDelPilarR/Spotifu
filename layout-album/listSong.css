@@ -1,0 +1,23 @@
+.listSong {
+  display: block;
+  width: 100%;
+  margin: 16px;
+}
+
+.iSearch {
+  display: flex;
+  align-items: center;
+}
+
+.icon-search {
+  font-size: 1rem;
+  line-height: 16px;
+  color: var(--gray10);
+  padding-top: 16px;
+}
+
+p {
+  margin: 0;
+  padding-top: 16px;
+  padding-left: 8px;
+}

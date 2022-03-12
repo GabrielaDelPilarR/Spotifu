@@ -1,0 +1,41 @@
+:root {
+  --sidebarInlineSize: 15rem;
+  --minBlockSize: 37.5rem;
+  --minInlineSize: 48rem;
+  --bottomSize: 5.5rem;
+}
+
+.layout {
+  min-inline-size: var(--minInlineSize);
+}
+
+.layout-sidebar {
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSizeS);
+  overflow: auto;
+  inline-size: var(--sidebarInlineSize);
+  flex-shrink: 0;
+}
+
+.layout-main {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(181.17deg, rgba(47, 47, 47, 0) -35.3%, #171717 66.2%),
+    url(../images/img-1.jpg);
+  background-size: cover;
+  overflow: auto;
+}
+
+.layout-bottom {
+  flex: 1;
+  block-size: var(--bottomSize);
+}
+
+.layout-block {
+  display: flex;
+}
+
+.playlistab {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
